@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shohel {
+  /* width: 100%; */
+  overflow: hidden;
+  /* background-color: aliceblue; */
+  background-image: linear-gradient(150deg, green, rgb(255, 0, 0));
+}
+.shohel .left {
+  float: left;
+}
+
+.shohel .left {
+  margin: 100px 60px;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+.shohel .left .fbname {
+  font-size: 52px;
+  margin: 10px 50px;
+  padding: 10px;
+  color: rgb(235, 255, 12);
+  font-family: tahoma;
+  cursor: pointer;
+}
+.shohel .left .helps {
+  font-size: 20px;
+  font-family: tahoma;
+  margin-bottom: 120px;
+}
+.shohel .left .small {
+  font-size: 16px;
+  font-family: tahoma;
+  color: rgb(255, 210, 9);
+  word-spacing: 2px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.shohel .right {
+  border: 2px solid red;
+  margin: 100px 100px;
+  float: right;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  display: block;
+  text-align: center;
+  width: 40%;
+  box-shadow: 2px 2px 15px 4px rgb(243, 255, 7);
+}
+.shohel .right input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 10px;
+}
+.shohel .right input[type="submit"] {
+  width: 100%;
+  padding: 7px;
+  margin: 10px 10px;
+  color: #000;
+  background-color: green;
+  outline: none;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.shohel .right input[type="text"] {
+  width: 100%;
+  padding: 7px;
+  margin: 10px 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 246, 255);
+  outline: none;
+  font-size: 18px;
+  border-radius: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.shohel .right input[type="text"]:hover {
+  background-color: rgb(249, 248, 248);
+  color: #ef0c0c;
+}
+.shohel .right input[type="password"]:hover {
+  background-color: rgb(249, 248, 248);
+  color: #ef0c0c;
+}
+.shohel .right input[type="password"] {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 7px;
+  margin: 10px 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 246, 255);
+  outline: none;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.shohel .right input[type="submit"]:hover {
+  background-color: rgb(119, 215, 119);
+}
+.shohel .right .forgeten {
+  margin: 10px 5px;
+  font-size: 20px;
+}
+.shohel .right .forgeten a {
+  text-decoration: none;
+  color: blue;
+}
+.shohel .right .forgeten a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+.shohel .right hr {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  padding: 0.2px;
+  color: rgb(0, 0, 0);
+}
+.shohel .right hr:hover {
+  color: orange;
+}
+.shohel .right input[type="button"] {
+  width: 70%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 7px;
+  margin: 15px 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(101, 219, 32);
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.shohel .right input[type="button"]:hover {
+  background-color: chartreuse;
+}
+#p {
+  color: #000;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: italic;
+  padding: 5px 20px;
+  text-decoration: double;
+}
